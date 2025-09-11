@@ -72,16 +72,17 @@ Server starts at `http://localhost:5000` and connects to MongoDB using `.env`.
 ## Folder Structure
 ```
 src/
-  config/db.ts
-  controllers/
-    authController.ts
-    userController.ts
-  middleware/
-    auth.ts
-  models/
-    User.ts
-  routes/
-    auth.ts
-    index.ts
-  index.ts
+├── config/
+│   └── db.ts
+├── controllers/
+│   ├── authController.ts
+│   └── userController.ts
+├── middleware/
+│   └── auth.ts
+├── models/
+│   └── User.ts
+├── routes/
+│   ├── auth.ts
+│   └── index.ts
+└── index.ts
 ```
